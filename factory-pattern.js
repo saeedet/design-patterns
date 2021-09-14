@@ -6,7 +6,7 @@ class Car {
   }
 }
 
-class carFactory {
+class CarFactory {
   createCar(model) {
     switch (model) {
       case "toyota":
@@ -17,7 +17,7 @@ class carFactory {
   }
 }
 
-const factory = new carFactory();
+const factory = new CarFactory();
 const toyota = factory.createCar("toyota");
 const nissan = factory.createCar("nissan");
 
